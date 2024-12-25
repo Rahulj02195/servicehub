@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Marketplace</title>
+    <link rel="stylesheet" href="additional.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">ServiceHub</div>
+                <a href="#">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="login.html" class="btn">Login</a>
+                <a href="register.html" class="btn">Sign Up</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Find Trusted Services Near You</h1>
+        <p>Connect with skilled professionals for all your needs.</p>
+        <a href="#services" class="btn-primary">Explore Services</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <img src="DALL·E 2024-12-24 13.13.12 - A realistic and professional image of a plumber in action. The plumber is wearing a uniform, a toolbelt, and gloves, working under a sink in a modern .webp"
+                    alt="Plumber">
+                <h3>Plumber</h3>
+                <p>Get plumbing services from verified experts.</p>
+            </div>
+            <div class="service-item">
+                <img src="DALL·E 2024-12-24 13.16.39 - A professional image of a chef in action, wearing a white chef coat and hat, working in a modern kitchen. The chef is preparing a gourmet dish, with c.webp"
+                    alt="Chef">
+                <h3>Chef</h3>
+                <p>Hire professional chefs for events and private dining.</p>
+            </div>
+            <div class="service-item">
+                <img src="ea6f6e3c-ec73-47ee-9eaa-1c2943383fc5.webp" alt="Painter">
+                <h3>Painter</h3>
+                <p>Professional painters for homes and offices.</p>
+            </div>
+            <div class="service-item">
+                <img src="82bd9cbd-7454-46d9-9d89-0939e4cdf74c.webp" alt="Balloon Decorator">
+                <h3>Balloon Decorator</h3>
+                <p>Creative decoration services for events and parties.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a platform connecting skilled professionals with customers who need reliable and quality services.
+            From plumbing to party decoration, we've got you covered.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
+    </section>
+
+
+    <!-- Booking Page -->
+    <section id="booking" class="booking">
+        <h2>Book a Service</h2>
+        <form action="#" method="POST">
+            <select name="service" required>
+                <option value="">Select a Service</option>
+                <option value="plumber">Plumber</option>
+                <option value="chef">Chef</option>
+                <option value="painter">Painter</option>
+                <option value="decorator">Balloon Decorator</option>
+            </select>
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            <textarea name="details" placeholder="Additional Details"></textarea>
+            <button type="submit" class="btn-primary">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Payment Page -->
+    <section id="payment" class="payment">
+        <h2>Make a Payment</h2>
+        <form action="#" method="POST">
+            <input type="text" name="cardholder" placeholder="Cardholder Name" required>
+            <input type="text" name="cardnumber" placeholder="Card Number" required>
+            <input type="month" name="expiry" placeholder="Expiry Date" required>
+            <input type="text" name="cvv" placeholder="CVV" required>
+            <button type="submit" class="btn-primary">Pay Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ServiceHub. All rights reserved.</p>
+    </footer>
+
+    <script src="additional.js"></script>
+</body>
+
+</html>
